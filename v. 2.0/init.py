@@ -2,7 +2,6 @@ import paho.mqtt.client as mqtt
 from forward import move as forward
 from left import move as left
 from right import move as right
-from stop import move as stop
 from time import sleep
 
 
@@ -23,9 +22,6 @@ def on_message(client, userdata, msg):
 
     elif str(msg.payload.decode()) == 'forward':
         forward()
-
-    elif str(msg.payload.decode()) == 'stop':
-        stop()
 
 
 
