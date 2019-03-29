@@ -23,7 +23,10 @@ def on_message(client, userdata, msg):
     elif str(msg.payload.decode()) == 'forward':
         forward()
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5cec6b08afb851f8c5de7be73e0b385ac53b9b89
 
 
 

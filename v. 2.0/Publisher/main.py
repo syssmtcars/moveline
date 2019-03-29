@@ -11,3 +11,7 @@ client.publish('syssmtcars', str(msg))
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5cec6b08afb851f8c5de7be73e0b385ac53b9b89
