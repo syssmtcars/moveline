@@ -24,6 +24,8 @@ ls.mode = 'COL-REFLECT'
 rs.mode = 'COL-REFLECT'
 b = ls.value()
 #ПИД регулятор
+
+
 try:
     while True:
         a = rs.value()
